@@ -1,0 +1,81 @@
+baseURL = "http://www.pnith.in"
+title = "NITHIN P"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+enableEmoji = true
+
+[pagination]
+pagerSize = 6
+
+
+[markup]
+[markup.highlight]
+noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+author = "Nithin Puthenveettil"
+# license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
+description = "Nithin P's personal website"
+keywords = "blog,developer,personal"
+info = [
+    "Where code meets cinema and words come to life!", 
+    "Welcome to the mind of a programmer, cinephile, writer, and speedcuber."
+]
+#avatarURL = "images/IMG_3486.jpeg"
+gravatar = "nithup123@gmail.com"
+dateFormat = "January 2, 2006"
+since = 2024
+colorScheme = "auto"
+# Hide the toggle button, along with the associated vertical divider
+hideColorSchemeToggle = false
+# Series see also post count
+maxSeeAlsoItems = 5
+
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/nithinputhenveettil/"
+
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 4
+url = "https://www.linkedin.com/in/nithinputhenveettil/"
+
+[[params.social]]
+name = "Medium"
+icon = "fa-brands fa-medium fa-2x"
+weight = 5
+url = "https://medium.com/@nithinputhenveettil"
+
+[[params.social]]
+name = "Facebook"
+icon = "fa-brands fa-facebook fa-2x"
+weight = 5
+url = "https://facebook.com/@nithinputhenveettil"
+
+
+[languages.en]
+languageName = ":uk:"
+
+[[languages.en.menu.main]]
+name = "About me!"
+weight = 1
+url = "about/"
+
+
+
